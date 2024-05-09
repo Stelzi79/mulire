@@ -14,6 +14,11 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+# Everything except go files
+# !*.go
+# !*.mod
+# !*.work
+
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
