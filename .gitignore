@@ -14,10 +14,14 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+# Ignore everything in the src directory except the src directory itself
+# src/*
+**/src/**
+
 # Everything except go files
-# !*.go
-# !*.mod
-# !*.work
+!*.go
+!*.mod
+!*.work
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
